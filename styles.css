@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+header{
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  padding-top: 30px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 6px 15px;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  color: #FDEE48; /* hex code for logo yellow */
+}
+
+ul li.active a{
+  color: #FDEE48;
+}
+
+#logo img{
+  float: left;
+  width: 250px;
+  height: auto;
+  padding-top: 10px;
+}
+
+
+#titleslogan h1{
+  color: white;
+  font-size: 55px;
+}
+
+#titleslogan h3{
+  color: #FDEE48;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.carousel_slide{
+  float: left;
+  width: 250px;
+}
+
+.slides{
+  float: left;
+  width: 250px;
+}
+
+
+.hiw{
+  text-align: center;
+  color: white;
+}
+
+.about{
+  text-align: center;
+  color: white;
+}
+
+.img-fluid{
+   max-width: 50%;
+   height:auto;
+}
+
+.names{
+  color: #FDEE48;
+}
+
+.bio_text{
+  color: white;
+  font-size: 18px;
+}
+
+.card{
+  background-color: #FDEE48;
+  font: black;
+  height: 30rem;
+}
+
+.card-body{
+  padding: 10px;
+}
+
+.btn-socials{
+  background-color: black;
+}
+
+
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: black 5px;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active_1, .collapsible:hover {
+  background-color: #FDEE48;
+}
+
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+.support{
+  background-color: #FDEE48;
+  text-align: center;
+  padding: 10px;
+}
+
+.btn-support{
+  background-color: black;
+  height: inherit;
+  width: inherit;
+}
+
+footer{
+text-align: center;
+}
+
+#card-text_m{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+#card_v{
+  height: 40rem;
+}
